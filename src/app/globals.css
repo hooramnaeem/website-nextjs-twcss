@@ -1,4 +1,4 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -25,3 +25,23 @@ body {
     text-wrap: balance;
   }
 }
+.bg-hero {
+  background-image: url('/assets/images/hero-bg.jpg');
+}
+ */
+ @tailwind base;
+ @tailwind components;
+ @tailwind utilities;
+ 
+ body {
+   @apply text-gray-900 bg-gray-100;
+ }
+ 
+ h1, h2, h3, p {
+   @apply font-sans;
+ }
+ 
+ img {
+   @apply w-full object-cover;
+ }
+ 
